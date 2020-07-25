@@ -6,18 +6,36 @@ public class StackExample {
 
     public static void main(String[] args) {
 
-        String e1="indore", e2="bhopal", e3="delhi";
-        
-        //we wish to store them in a stack.
-        
-        Stack stk=new Stack();
-        stk.push(e1); stk.push(e2); stk.push(e3);
-        System.out.println(stk);
-        stk.pop();//removes and returns the top most element.
-        System.out.println(stk);
-        stk.pop();
-        System.out.println(stk);
-        stk.pop();
-        System.out.println(stk);
+       Stack<String> stk1=new Stack<>();
+       stk1.push("ab");
+       stk1.push("cd");
+       //stk1.push(10);
+       //stk1.push(20);
+       
+       Stack<Integer> stk2=new Stack<>();
+       stk2.push(10);
+       stk2.push(20);
+       //stk2.push("ab");
+       //stk2.push("cd");
+       
+       Stack stk3=new Stack();
+       stk3.push("abcd");
+       stk3.push("pqrs");
+       stk3.push(55);
+       stk3.push(65);
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
     }
 }
